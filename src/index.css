@@ -1,0 +1,89 @@
+.toggleSelected {
+  border: 1px solid #000;
+  background: #add8e6;
+}
+
+.toggleNotSelected {
+  border: 1px solid #ccc;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #343434;
+}
+
+body{
+  background: #f1f1f1;
+  max-width: 1080px; 
+	margin: 0 auto; 
+	float: none; 
+}
+
+.App{
+    border-radius: 1em;
+    background: #f1f1f1;
+    box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+    padding: 1em;
+    margin: 2em;
+}
+
+.tweet{
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+  padding: 1em;
+  margin: 0.2em;
+}
+
+.likedTweet {
+  background: #cda2ff;
+  border-radius: 1em;
+  box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+  padding: 1em;
+  margin: 0.2em;
+}
+
+.accountHandler{
+    display: block;
+    margin: 0.2em;
+    padding: 0.3em;
+    color: #343434;
+    font-weight: bold;
+}
+
+.tweetContent{
+    display: block;
+    margin: 0.8em;
+}
+
+.tweetDate{
+  margin: 0.2em;
+  padding: 0.3em;
+  color: #343434;
+  font-size: small;
+}
+
+#headerOptions{
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+  padding: 1em;
+  margin: 0.2em;
+}
+
+#clearAllButton{
+    cursor: default;
+    border-width: 0;
+    border-radius: 0.4em;
+    background: #f1f1f1;
+    box-shadow: 4px 2px 5px #cdcdcd, 0px -4px 6px #ffffff;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#noTweetsMsg{
+    padding: 1em;
+    margin: 0.2em;
+}
